@@ -1,6 +1,6 @@
 \section{Easy ELF}
 \begin{enumerate}
-\item IDA直接打开，查看函数列表确定没无壳，直接静态分析\\
+\item  IDA打开查看函数列表确认没有加壳，直接静态分析。\\
 \item Shift + F12 打开Strings窗口，发现字符串“\lstinline$Correct!\n$”和“\lstinline$Wrong\n$”\\
 	\includegraphics[width=10cm]{easyelf-str} \\
 \item 双击 字符串“\lstinline$Correct!\n$”跳转到定义，发现在一个单独的函数内 \\
